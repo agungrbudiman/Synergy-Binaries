@@ -30,6 +30,8 @@ class Configuration():
    productBuildPath   = ""
    productCheckout    = ""
 
+   platformArchitecture = platform.machine()
+
    # Constructor
 
    def __init__( self, configPath ):
